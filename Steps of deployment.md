@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html>
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Steps of deployment</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
 
-<body class="stackedit">
-  <div class="stackedit__html"><ul>
+---
+
+<ul>
 <li>Make sure you have a Heroku account. Create one if not. <a href="https://signup.heroku.com" title="Click here to create">Click here to create</a></li>
 <li>Make sure you have deploy rights for the project you’re trying to deploy - ask someone with admin rights to add you to the project.</li>
 <li>Add heroku remotes using the command: <code>git remote add Remote-Name Remote-URL</code>. Check the remotes by running<code>git remote -v</code>. <code>fetch</code> and <code>push</code> link should exist for every remote, similar to image below for <code>treats-api-web</code> project with the addition of the origin remote.<br>
-<img src="https://www.showdoc.cc/server/api/common/visitfile/sign/ea51b904e63e6c8a3e2b3edc401fd835?showdoc=.jpg" alt="For reference" title="For reference"></li>
+<img src="http://kael.cdn.fengwenjun.com/Screen%20Shot%202019-10-11%20at%2014.58.41.png" alt="For reference"></li>
 <li>Install Heroku CLI. <a href="https://devcenter.heroku.com/articles/heroku-cli" title="Click here to install heroku">Click here to install</a></li>
 <li>Run <code>heroku login</code> to log in to heroku</li>
 <li>Update the local branch by fetching from remote to make sure local has everything that is on remote.<br>
@@ -57,7 +51,4 @@
 <td><a href="https://git.heroku.com/pure-springs-61728.git">https://git.heroku.com/pure-springs-61728.git</a></td>
 </tr>
 </tbody>
-</table></div>
-</body>
-
-</html>
+</table>
