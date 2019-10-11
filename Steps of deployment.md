@@ -1,8 +1,3 @@
----
-
-
----
-
 <ul>
 <li>Make sure you have a Heroku account. Create one if not. <a href="https://signup.heroku.com" title="Click here to create">Click here to create</a></li>
 <li>Make sure you have deploy rights for the project you’re trying to deploy - ask someone with admin rights to add you to the project.</li>
