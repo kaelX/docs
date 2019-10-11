@@ -1,9 +1,15 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steps of deployment</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
-
-<ul>
+<body class="stackedit">
+  <div class="stackedit__html"><ul>
 <li>Make sure you have a Heroku account. Create one if not. <a href="https://signup.heroku.com" title="Click here to create">Click here to create</a></li>
 <li>Make sure you have deploy rights for the project you’re trying to deploy - ask someone with admin rights to add you to the project.</li>
 <li>Add heroku remotes using the command: <code>git remote add Remote-Name Remote-URL</code>. Check the remotes by running<code>git remote -v</code>. <code>fetch</code> and <code>push</code> link should exist for every remote, similar to image below for <code>treats-api-web</code> project with the addition of the origin remote.<br>
@@ -51,4 +57,7 @@
 <td><a href="https://git.heroku.com/pure-springs-61728.git">https://git.heroku.com/pure-springs-61728.git</a></td>
 </tr>
 </tbody>
-</table>
+</table></div>
+</body>
+
+</html>
